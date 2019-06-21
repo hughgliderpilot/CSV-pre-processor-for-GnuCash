@@ -10,11 +10,13 @@ Ignore Balance, use characters from Description to id the Transfer Account from 
 
 Lookup file columns:
 
-Description string, String start, String length,	Transfer account
+Description string, String_start, String_length,	Transfer account
 
 Default Lookup file name is "account_lookup_for_GnuCash.csv".
 
 String start is based on first letter being in position 0.  
+
+If String_length = 0 then will just do a search for a "string contains" the Lookup string. 
 
 So if wanted to pick up on MONZO from "HUGH WILLIAM WRIGHJOINT MONZO TOP UP" I would use 
 
@@ -26,6 +28,8 @@ String length = 5
 
 Transfer account = "Expense:Variable"  (or whatever account you are assigning to the MONZO 
 transactions
+
+Note the Description string needs to be unique in the Lookup file, if not then only the first one found will be used. The Transfer account can of course be non-unique as multiple different payment types could assign to the same Transfer account. 
 
 Output file:
 
