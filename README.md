@@ -1,6 +1,5 @@
 # CSV-pre-processor-for-GnuCash
-Takes transaction CSV download from bank and adds Transfer Account column based on text in 
-Description. 
+Replaces qifqif function to match GnuCash transactions with Transfer accounts based on transaction desccription. Wrote this because my bank took away the Qif file download so now have to download CSV files. Takes transaction CSV download from bank and adds Transfer Account column based on text in Description. 
 
 Transaction CSV columns from bank:
 
