@@ -14,9 +14,9 @@ Description string, String_start, String_length,	Transfer account
 
 Default Lookup file name is "account_lookup_for_GnuCash.csv".
 
-String start is based on first letter being in position 0.  
+String_start is based on first letter being in position 0.  
 
-If String_length = 0 then will just do a search for a "string contains" the Lookup string. 
+If String_length = 0 then will just do a search for a "string contains" the Lookup string. It will ignore the String_start. 
 
 So if wanted to pick up on MONZO from "HUGH WILLIAM WRIGHJOINT MONZO TOP UP" I would use 
 
