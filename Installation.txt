@@ -13,7 +13,7 @@ csv_pre_processor_for GnuCash.py.
 THE DOWNLOAD FILES MUST INCLUDE A FIRST ROW WITH THE FOLLOWING COLUMN HEADERS:
 ?????????????????????/
 
-See example uploaded to this repo userhome "16062019_2432.csv"
+See example uploaded to this repo userhome "sample_16062019_2432.csv"
 
 Output will be written to the downloads folder {home_directory}/Downloads, and will be called xac_ac_for_GnuCash_<date_time> eg typically on Windows:
 C:\Users\<username>\OneDrive\Downloads\xac_ac_for_GnuCash_yymmddHHMM.csv
@@ -25,5 +25,5 @@ Create a csv file in Excel or similar, the first row needs to have the following
 ???????????????????????
 
 
-See the example file uploaded to this repo. 
+See the example file uploaded to this repo "sample_account_lookup_for_GnuCash.csv"
 
