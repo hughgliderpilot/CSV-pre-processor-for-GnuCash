@@ -1,0 +1,23 @@
+Description,String_start,String_length,Transfer_account
+MONZO,0,5,Expense:Variable
+HUGH WILLIAM WRIGHJOINT MONZO TOP UP,0,36,Expense:Variable
+CASH,0,4,Expense:Variable
+PHANIE CARLIN,3,13,Expense:Variable
+LAUREN WRIGHT,0,13,Expense:Variable
+H AND N WRIGHT,0,14,Expense:Variable
+404040 88888888,0,15,Assets:FD Everyday Savings 7660
+VODAFONE LTD,0,12,Expense:Fixed
+LEEDS CITY COUNCIL,0,18,Expense:Fixed
+YORKSHIRE WATER,0,15,Expense:Fixed
+ARMITAGE,0,8,Expense:Fixed
+W W RIGHT WILLMOBILE,0,29,Expense:Fixed
+INTEREST TO,0,11,Expense:Fixed
+NOWTV.COM/BILLINGH,0,18,Expense:Fixed
+AVIVA,0,5,Expense:Fixed
+INT'L,0,5,Expense:Fixed
+THE COMMUNITY SCHE YAMS,0,23,Expense:Fixed
+TV LICENCE MBP,0,14,Expense:Fixed
+E.ON,0,4,Expense:Fixed
+YORKSHIRE DALES,0,15,Expense:Sailing
+VODAFONE PAYROLL,0,16,Expense:Fixed
+VODAFONE DIVIDEND,0,17,Expense:Fixed
