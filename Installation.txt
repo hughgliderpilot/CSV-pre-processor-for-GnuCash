@@ -1,0 +1,29 @@
+Installation Instructions
+
+There is no automatic installation. 
+
+To install you need to:
+
+1. Associate the Python module csv_pre_processor_for GnuCash.exe with .CSV files so it comes up as an option for "Open with..." when you right click on yoour CSV file downloaded from the bank with the transactions.  
+2. Create a lookup file using Excel or similar called "account_lookup_for_GnuCash.csv". This needs to be stored in {home_directory}/documents, eg typically on Windows:
+C:\Users\<username>\OneDrive\Documents\account_lookup_for_GnuCash.csv
+3. Download csv files from bank containing transactions and then right cliick and select the option to "Open with..." and choose 
+csv_pre_processor_for GnuCash.py. 
+
+THE DOWNLOAD FILES MUST INCLUDE A FIRST ROW WITH THE FOLLOWING COLUMN HEADERS:
+?????????????????????/
+
+See example uploaded to this repo userhome "16062019_2432.csv"
+
+Output will be written to the downloads folder {home_directory}/Downloads, and will be called xac_ac_for_GnuCash_<date_time> eg typically on Windows:
+C:\Users\<username>\OneDrive\Downloads\xac_ac_for_GnuCash_yymmddHHMM.csv
+
+Detailed instructions below regarding Associating Python module with csv file, and Lookup file format:
+
+LOOKUP FILE
+Create a csv file in Excel or similar, the first row needs to have the following column headings:
+???????????????????????
+
+
+See the example file uploaded to this repo. 
+
