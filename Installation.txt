@@ -30,7 +30,7 @@ See the example file uploaded to this repo "sample_account_lookup_for_GnuCash.cs
 To Run
 
 Download csv files from bank containing transactions and then right cliick and select the option to "Open with..." and choose 
-csv_for GnuCash.py. 
+csv_for GnuCash.exe 
 
 THE DOWNLOAD FILES MUST INCLUDE A FIRST ROW WITH THE FOLLOWING COLUMN HEADERS:
 
