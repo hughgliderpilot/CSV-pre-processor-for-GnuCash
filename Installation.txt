@@ -37,7 +37,7 @@ THE DOWNLOAD FILES MUST INCLUDE A FIRST ROW WITH THE FOLLOWING COLUMN HEADERS:
 Date	
 Description	
 Amount
-See example uploaded to this repo userhome "sample_16062019_2432.csv"
+See example uploaded to this repo userhome "sample_x_action_file.csv"
 
 
 Detailed instructions below regarding Associating Python module with csv file:
