@@ -41,7 +41,17 @@ See example uploaded to this repo userhome "sample_x_action_file.csv"
 
 
 Detailed instructions below regarding Associating Python module with csv file:
+(Note this will set csv_for_GnuCash.exe as the default program to open .csv files
+which may not be what you want!)
 
+- Right click on the csv file.
+- Click on "Open with"
+- Select "Choose another app"
+- Tick the "Always use this app to open .csv files" box
+- Scroll down and click on "More apps"
+- Scroll down to the bottom of the list and select "Look for another app on this PC"
+- This will open a file explorer window, you need to find where the csv_for_GnuCash.exe file is, select it and click "Open" 
+This will run the program against the selected file. Next time you can just double click on the transactions csv file. 
 
 
 
