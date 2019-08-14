@@ -14,6 +14,7 @@ from pathlib import Path
 userhome = Path.home()
 
 transaction_file = sys.argv[1]  # needed for live
+transaction_file = Path(transaction_file)
 
 # below lines to make testing easier
 # transaction_file = userhome / "Downloads" / "16062019_2432.csv"
@@ -116,3 +117,5 @@ output_file = userhome / output_folder_str / output_file_name
 df_transactions.to_csv(No_match_file, index=False)
 df_output.to_csv(output_file, index=False)
 # end of output file processing
+input("Press Enter to continue...")
+
