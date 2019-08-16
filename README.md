@@ -1,5 +1,7 @@
 # CSV-pre-processor-for-GnuCash
-Replaces qifqif function to match GnuCash transactions with Transfer accounts based on transaction desccription. Wrote this because my bank took away the Qif file download so now have to download CSV files. Takes transaction CSV download from bank and adds Transfer Account column based on text in Description. 
+Python 3 code to replace qifqif function to match GnuCash transactions with Transfer accounts based on transaction desccription. Wrote this because my bank took away the Qif file download so now have to download CSV files. Takes transaction CSV download from bank and adds Transfer Account column based on text in Description. 
+
+You will need to install Python 3 and Pandas.
 
 You can run it from the command line with: <b>csv_for_GnuCash</b> <i>transaction file name</i>
 
