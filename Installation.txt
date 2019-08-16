@@ -2,10 +2,11 @@ Installation and Run Instructions
 
 There is no automatic installation. 
 
-To install you need to:
+I tried to make it run from right-clicking the transaction file and then have csv_for_GnuCash as an option, this can be done if you compile the code with something like Pyinstaller and then associate the Python module csv_pre_processor_for GnuCash.exe with .CSV files so it opens the programmer when you right click on your CSV file downloaded from the bank with the transactions.  (See detailed instructions on how to do this below. )
 
-1. Associate the Python module csv_pre_processor_for GnuCash.exe with .CSV files so it opens the programmer when you right click on your CSV file downloaded from the bank with the transactions.  See detailed instructions on how to do this below. 
-2. Download the .csv_GnuCash.csv file to your home directory (typically C:\Users\USERNAME) and edit if required. This file specifies
+Otherwise just run from a Python 3 command line.
+
+You will need a config file, the easiest way to set this up is to download the .csv_GnuCash.csv file from this repo to your home directory (typically C:\Users\<i>USERNAME</i>) and edit if required. This file specifies
 - Lookup_file path and file name. 
 - Output_folder path indicating the directories to be used for the output files. 
 
