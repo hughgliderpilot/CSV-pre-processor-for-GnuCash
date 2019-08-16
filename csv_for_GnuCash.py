@@ -52,10 +52,12 @@ try:
     df_lookup = pd.read_csv(lookup_file)
 except FileNotFoundError:
     print("Lookup file not found, ending run")
+    input("Press Enter to continue...")
     raise
 except TypeError:
     print("File {} is not a valid lookup file, "
           "ending run".format(lookup_file))
+    input("Press Enter to continue...")
     raise
 # Check the Lookup file has the correct column names
 lookup_cols = list(df_lookup)
@@ -63,6 +65,7 @@ for x in ['String_length', 'String_length', 'Transfer_account', 'Description']:
     if x not in lookup_cols:
         print('Problem with Column Headings in lookup file, '
               '\"{}\" not found'.format(x))
+        input("Press Enter to continue...")
         sys.exit(1)
 # end of lookup file processing
 
@@ -71,16 +74,19 @@ try:
     df_transactions = pd.read_csv(transaction_file)
 except FileNotFoundError:
     print("Transaction file {} not found, ending run".format(transaction_file))
+    input("Press Enter to continue...")
     raise
 except TypeError:
     print("File {} is not a valid transaction file, "
           "ending run".format(transaction_file))
+    input("Press Enter to continue...")
 # Check the transaction file has the correct column names
 transaction_cols = list(df_transactions)
 for x in ['Date', 'Amount', 'Description']:
     if x not in transaction_cols:
         print('Problem with Column Headings in transaction file, '
               '\"{}\" not found'.format(x))
+        input("Press Enter to continue...")
         sys.exit(1)
 # end of transaction file processing
 
